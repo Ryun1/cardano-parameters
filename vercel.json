@@ -1,6 +1,4 @@
 {
   "version": 2,
-  "framework": "nextjs",
-  "buildCommand": "cd cardano-params && npm install && npm run build",
-  "outputDirectory": "cardano-params/.next"
+  "framework": "nextjs"
 } 
