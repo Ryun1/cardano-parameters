@@ -1,10 +1,6 @@
 {
   "version": 2,
-  "rootDirectory": "cardano-params",
-  "builds": [
-    {
-      "src": "cardano-params/package.json",
-      "use": "@vercel/next"
-    }
-  ]
+  "framework": "nextjs",
+  "buildCommand": "cd cardano-params && npm install && npm run build",
+  "outputDirectory": "cardano-params/.next"
 } 
