@@ -134,3 +134,36 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Dependencies
+web/node_modules
+web/.pnp
+web/.pnp.js
+
+# Testing
+web/coverage
+
+# Next.js
+web/.next/
+web/out/
+
+# Production
+web/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Local env files
+web/.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+web/*.tsbuildinfo
+web/next-env.d.ts
+
+# IDE
+.idea
+.vscode
